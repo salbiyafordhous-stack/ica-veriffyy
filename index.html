@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>eRECEIVE Verify</title>
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f3f4f6;
+}
+.header{
+    background:white;
+    padding:20px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+.header img{
+    height:60px;
+}
+.nav{
+    background:#a0004f;
+    color:white;
+    padding:15px;
+    font-weight:bold;
+}
+.container{
+    max-width:500px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+h1{
+    font-size:26px;
+}
+label{
+    display:block;
+    margin-top:20px;
+    font-weight:bold;
+}
+input{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    border:none;
+    border-bottom:2px solid #ccc;
+    outline:none;
+}
+.recaptcha{
+    margin-top:20px;
+    border:1px solid #ccc;
+    padding:15px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+button{
+    margin-top:20px;
+    width:100%;
+    padding:12px;
+    background:#003366;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <img src="C:\Users\Dell\Pictures\Screenshots\Screenshot 2026-03-21 215511.png" alt="ICA Logo">
+</div>
+
+<div class="nav">
+    ICA Website
+</div>
+
+<div class="container">
+    <h1>eRECEIVE: Verify Certificate of Death</h1>
+
+    <p>Please provide the following information.</p>
+
+    <label>Certificate No.</label>
+    <input type="text" placeholder="Enter certificate number">
+
+    <label>Access Code</label>
+    <input type="text" placeholder="Enter access code">
+
+    <div class="recaptcha">
+        <input type="checkbox">
+        <span>I'm not a robot</span>
+    </div>
+
+    <button>Verify</button>
+</div>
+
+</body>
+</html>
