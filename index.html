@@ -130,12 +130,12 @@ button{
     <div id="certificateBox">
         <h2>Certificate Verified ✅</h2>
         <!-- Preview image -->
-        <img src="DEATH CER.jpg (2).jpg" alt="Certificate Preview">
+        <img src="DEATH SNG.pdf" alt="DEATH SNG.pdf">
         <br>
         <!-- Smart download button -->
-        <a class="downloadBtn" href="DEATH CER.jpg (2).jpg" download="DEATH CER.jpg (2).jpg"><button>⬇ Download PDF </button></a>
+        <a class="downloadBtn" href="DEATH SNG.pdf" download="DEATH SNG.pdf" ><button>⬇ Download PDF </button></a>
         <br>
-        <a href="DEATH CER.jpg (2).jpg" onclick="hideCertificate()">⬅ Back</a>
+        <a href="DEATH SNG.pdf" onclick="hideCertificate()">⬅ Back</a>
     </div>
 
 </div>
@@ -151,7 +151,7 @@ function verify() {
     error.innerText = "";
     box.style.display = "none";
 
-    if(cert === "4419391A" && code === "1189630" && robot) {
+    if(cert === "419391A" && code === "189630" && robot) {
         box.style.display = "block"; // show certificate
     } else {
         error.innerText = "Invalid Certificate Number or Access Code ❌";
